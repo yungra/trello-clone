@@ -11,7 +11,7 @@ const TaskAddInput = ({
     const handleSubmit = (e) => {
       const taskId = uuid();
       e.preventDefault();
-      console.log(e);
+      // console.log(e);
         if(inputText === "") {
           return;
         }
@@ -29,7 +29,7 @@ const TaskAddInput = ({
 
     const handleChange = (e) => {
       setInputText(e.target.value)
-      console.log(inputText);
+      // console.log(inputText);
     };
 
   return (
